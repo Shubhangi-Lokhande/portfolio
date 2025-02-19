@@ -16,7 +16,7 @@ const About = () => {
                   <p className='pt-4'> I am passionate about creating engaging, responsive web pages and applications, I’ve developed interactive web-based courses 
                   and websites using <strong>HTML5, jQuery, JavaScript, CSS3, and React</strong>, ensuring a seamless user experience for successful products and services.</p>
                   <p className='pt-4 pb-3'>Recently earned the <strong>Salesforce Administrator certification</strong>, showcasing a commitment to continuous learning and professional growth.
-                  Proficient in key Salesforce Admin technologies, including Flows & Automation, Workflow & Validation, Data Security & Management, and Reporting & Dashboards, with a strong ability to optimize and efficiently manage Salesforce environments.
+                  Proficient in key Salesforce Admin technologies, including <strong>Flows & Automation, Workflow & Validation, Data Security & Management, and Reporting & Dashboards</strong>, with a strong ability to optimize and efficiently manage Salesforce environments.
                   </p>
                    Do check out some of my work in the Projects section below.                 
                </p>
