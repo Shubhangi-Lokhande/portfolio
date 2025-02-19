@@ -1,12 +1,12 @@
-import {FaGithub, FaLinkedin, FaFileDownload} from 'react-icons/fa';
+import {FaGithub, FaLinkedin, FaFileDownload, FaCertificate} from 'react-icons/fa';
 import { HiOutlineMail } from 'react-icons/hi';
+import Administrator from '../assets/Administrator.png';
 import html from '../assets/html.png';
 import javascript from '../assets/javascript.png';
 import react from '../assets/react.png';
 import css from '../assets/css.png';
 import github from '../assets/github.png';
 import tailwind from '../assets/tailwind.png';
-import reduxToolkit from '../assets/reduxToolkit.png';
 import sass from '../assets/sass.png';
 import ResponsiveWebDesign from '../assets/ResponsiveWebDesign.png';
 import jQuery from '../assets/jQuery.png';
@@ -63,33 +63,44 @@ export const socialLinks = [
             </> 
         ),
         href: "mailTo:shubhangi.bhosale09@gmail.com"
+    },
+    {
+        id: 4,
+        child: (
+            <>
+            Certificate<FaCertificate size={30}/>
+            </> 
+        ),
+        href: "https://drive.google.com/file/d/1da-JY4Jm7qxgtlEcDiafMYJsy8HemJKk/view?usp=sharing"
     }
+
+    
 ]
 
 export const techs = [
     {
         id: 1,
+        title: 'Salesforce Administrator',
+        src: Administrator,
+        shadow: 'shadow-blue-800'
+    },
+    {
+        id: 2,
         title: 'HTML',
         src: html,
         shadow: 'shadow-orange-500'
     },
     {
-        id: 2,
+        id: 3,
         title: 'JavaScript',
         src: javascript,
         shadow: 'shadow-yellow-500'
     },
     {
-        id: 3,
+        id: 4,
         title: 'React',
         src: react,
         shadow: 'shadow-blue-500'
-    },
-    {
-        id: 4,
-        title: 'Redux Toolkit',
-        src: reduxToolkit,
-        shadow: 'shadow-purple-400'
     },
     {
         id: 5,

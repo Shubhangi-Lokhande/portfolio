@@ -1,7 +1,7 @@
 import { portLinks } from "../utils/portfolioConstants";
 
 const Portfolio = () => {
-    console.log(portLinks.length)
+    //console.log(portLinks.length)
   return (
     <div name="portfolio" className='w-full bg-gradient-to-b from-black via-black 
     to-gray-400 text-white p-4 h-auto'>
@@ -19,7 +19,7 @@ const Portfolio = () => {
                             <img src={src} alt="array destruct" className='rounded-md duration-200 hover:scale-105'/>
                             <div className='flex justify-center items-center'>
                                 <button className='py-3 w-1/2 m-4 duration-200 hover:scale-105'>
-                                <a href={href} className='' target="_blank" rel="noreferrer">{code}</a>
+                                <a href={href} className='text-white' target="_blank" rel="noreferrer"><u>{code}</u></a>
                                 </button>
                             </div>
                         </div>
