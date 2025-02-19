@@ -10,7 +10,7 @@ const About = () => {
         
             </div> 
                 <p className=''>
-                  <p className='text-xl'>HEY, I'M Shubhangi Bhosale</p>
+                  <p className='text-xl'>Hello, I'M Shubhangi Bhosale</p>
                   <p className='pt-3'>I have 10+ years of experience in IT, with over 6 years specializing in UI design and front-end development.  
                   </p>
                   <p className='pt-4'> I am passionate about creating engaging, responsive web pages and applications, I’ve developed interactive web-based courses 
